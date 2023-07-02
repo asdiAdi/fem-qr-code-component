@@ -1,9 +1,7 @@
 :root {
   /*colors*/
-  --blue: #2c7dfa;
-  --blue-shade: #3685ff;
   --dark-navy: #1f314f;
-  --gray: #7d889e;
+  --grey: #7d889e;
   --light-grey: #d5e1ef;
   --white: #ffffff;
 
@@ -13,6 +11,7 @@
 }
 
 body {
+  margin: 0;
   width: 100vw;
   height: 100vh;
   background-color: var(--light-grey);
@@ -27,6 +26,7 @@ body {
   padding: 1rem;
   background-color: var(--white);
   border-radius: 1.25rem;
+  box-shadow: 0 1.563rem 25px 0 hsla(0, 0%, 0%, 0.0477);
 }
 
 .qr__image {
@@ -37,12 +37,14 @@ body {
 
 .qr__title {
   margin: 1.5rem 1.5rem 0 1.5rem;
+  color: var(--dark-navy);
   font: var(--font-heading);
   text-align: center;
 }
 
 .qr__description {
   margin: 1rem 1.5rem;
+  color: var(--grey);
   font: var(--font-body);
   text-align: center;
 }
