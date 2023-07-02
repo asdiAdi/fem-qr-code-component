@@ -7,7 +7,7 @@
 
   /*fonts*/
   --font-heading: 700 1.375rem Outfit, sans-serif;
-  --font-body: 400 0.938rem Outfit, sans-serif;
+  --font-body: 400 0.9375rem Outfit, sans-serif;
 }
 
 * {
@@ -31,7 +31,7 @@ body {
   padding: 1rem;
   background-color: var(--white);
   border-radius: 1.25rem;
-  box-shadow: 0 1.563rem 25px 0 hsla(0, 0%, 0%, 0.0477);
+  box-shadow: 0 1.5625rem 25px 0 hsla(0, 0%, 0%, 0.0477);
 }
 
 .qr__image {
@@ -51,5 +51,6 @@ body {
   margin: 1rem;
   color: var(--grey);
   font: var(--font-body);
+  letter-spacing: 0.011875rem;
   text-align: center;
 }
